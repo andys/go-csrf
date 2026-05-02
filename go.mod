@@ -1,5 +1,5 @@
 module github.com/andys/go-csrf
 
-go 1.17
+go 1.25
 
-require github.com/kataras/jwt v0.1.2
+require github.com/kataras/jwt v0.1.17

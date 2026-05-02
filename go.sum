@@ -1,2 +1,4 @@
 github.com/kataras/jwt v0.1.2 h1:827BBMK2/PQc1Y209cPKeAChyx1mvfW9I3LE0GJ5V8A=
 github.com/kataras/jwt v0.1.2/go.mod h1:4ss3aGJi58q3YGmhLUiOvNJnL7UlTXD7+Wf+skgsTmQ=
+github.com/kataras/jwt v0.1.17 h1:dYjemzcdYqA4ylwq9/56MslCr/pNOyVUZ2bl3hYNHgc=
+github.com/kataras/jwt v0.1.17/go.mod h1:HUnU5HDBCDanVF8zrPVSE2VK8HicospKefZDD4DzOKU=
