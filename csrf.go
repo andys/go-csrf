@@ -1,6 +1,8 @@
 package csrf
 
 import (
+	"time"
+
 	"github.com/kataras/jwt"
 )
 
@@ -11,7 +13,7 @@ func Setup(randomSecret []byte) {
 }
 
 func GenerateToken() string {
-	token, err := jwt.Sign(jwt.HS512, secret, "", jwt.MaxAge(24*60*60))
+	token, err := jwt.Sign(jwt.HS512, secret, jwt.Map{}, jwt.MaxAge(24*time.Hour))
 	if err != nil {
 		panic(err)
 	}
